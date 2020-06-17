@@ -1,0 +1,50 @@
+# IDE/Editor files
+.idea
+.ensime
+.ensime_cache/
+
+# scala build folders and files
+target
+*.tgz
+*.jar
+
+# vim
+*.*~
+
+# dotfiles
+.dockerignore
+.editorconfig
+
+# logs
+*.log
+
+# local settings
+localsettings.json
+
+# Text files
+*.txt
+*.ods
+*.csv
+*.dat
+
+# standalone docker
+Dockerfile
+
+# logs
+*.log
+
+package
+!src/package
+native
+
+.DS_Store
+minter_target
+
+test/data/*
+test/*/data/*
+
+!src/test
+!src/test/**
+src/test/**/.DS_Store
+
+*.sublime-*
